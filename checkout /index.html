@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>CPLS Checkout</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:"Fira Code",monospace;
+background:white;
+color:black;
+}
+
+header{
+
+height:65px;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:0 25px;
+
+border-bottom:1px solid black;
+
+position:sticky;
+top:0;
+
+background:white;
+
+z-index:100;
+}
+
+.logo{
+
+font-size:18px;
+letter-spacing:3px;
+
+}
+
+.cart{
+
+cursor:pointer;
+text-decoration:none;
+color:black;
+}
+
+.hero{
+
+padding:70px 30px;
+text-align:center;
+
+border-bottom:1px solid black;
+
+}
+
+.hero h1{
+
+font-size:42px;
+margin-bottom:15px;
+
+}
+
+.hero p{
+
+font-size:14px;
+letter-spacing:2px;
+
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(150px,1fr));
+
+gap:1px;
+
+background:black;
+
+}
+
+.item{
+
+background:white;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.item:hover{
+
+opacity:.75;
+
+}
+
+.item img{
+
+width:100%;
+aspect-ratio:1;
+
+object-fit:cover;
+
+display:block;
+
+}
+
+.info{
+
+padding:15px;
+
+text-align:center;
+
+font-size:12px;
+
+letter-spacing:2px;
+
+}
+
+.button{
+
+display:block;
+
+margin:60px auto;
+
+width:250px;
+
+padding:18px;
+
+background:black;
+
+color:white;
+
+text-align:center;
+
+text-decoration:none;
+
+}
+
+footer{
+
+padding:40px;
+
+text-align:center;
+
+font-size:12px;
+
+border-top:1px solid black;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+CPLS
+</div>
+
+<a class="cart"
+href="https://cplsproductionsofficial.github.io/CPLS/">
+
+BAG
+
+</a>
+
+</header>
+
+<section class="hero">
+
+<h1>CHECKOUT</h1>
+
+<p>
+Review your order before completing payment.
+</p>
+
+</section>
+
+<section class="grid">
+
+<div class="item">
+<img src="6251CF23-0E41-4B9B-987E-490EAEB92246.png">
+<div class="info">
+TS-01
+</div>
+</div>
+
+<div class="item">
+<img src="F733D049-8B58-4482-AD3B-29E020F2FF3A.png">
+<div class="info">
+TS-02
+</div>
+</div>
+
+<div class="item">
+<img src="IMG_3223.webp">
+<div class="info">
+JP-01
+</div>
+</div>
+
+<div class="item">
+<img src="IMG_3240.webp">
+<div class="info">
+JE-01
+</div>
+</div>
+
+<div class="item">
+<img src="IMG_3271.webp">
+<div class="info">
+TT-01
+</div>
+</div>
+
+<div class="item">
+<img src="IMG_3270.webp">
+<div class="info">
+HD-03
+</div>
+</div>
+
+</section>
+
+<a class="button"
+href="https://cplsproductionsofficial.github.io/CPLS/">
+
+RETURN TO STORE
+
+</a>
+
+<footer>
+
+© CPLS Productions
+
+</footer>
+
+</body>
+</html>
